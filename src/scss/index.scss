@@ -1,0 +1,28 @@
+$width : 1200px;
+$height : 500px;
+
+.box{
+    display: grid;
+    width: $width;
+    height: $height;
+    background-color: rgb(101, 195, 8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../static/logo.webp);
+}
+
+.box2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(101, 195, 8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../static/bz.webp);
+}
+
+.iconfont{
+    font-size: 64px !important;
+    color: saddlebrown;
+}
